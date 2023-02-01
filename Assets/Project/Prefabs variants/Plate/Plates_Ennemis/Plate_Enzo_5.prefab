@@ -2098,7 +2098,6 @@ GameObject:
   - component: {fileID: 4874206318801287763}
   - component: {fileID: 4874206318802057843}
   - component: {fileID: 4874206318803056819}
-  - component: {fileID: 8604930308055476522}
   m_Layer: 0
   m_Name: VinesB (1)
   m_TagString: Untagged
@@ -2171,20 +2170,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8604930308055476522
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4874206318801118835}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300002, guid: fd429c274eb56cd4b95503346aae2280, type: 3}
 --- !u!1 &4874206318878833281
 GameObject:
   m_ObjectHideFlags: 0
@@ -32617,7 +32602,6 @@ GameObject:
   - component: {fileID: 4874206319286110964}
   - component: {fileID: 4874206319289534000}
   - component: {fileID: 4874206319288092308}
-  - component: {fileID: 3157101967730760904}
   m_Layer: 0
   m_Name: VinesC
   m_TagString: Untagged
@@ -32690,20 +32674,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &3157101967730760904
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4874206319286411332}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300002, guid: fb3d6b9894ad4224daa94945fc82c0e8, type: 3}
 --- !u!1 &4874206319291688239
 GameObject:
   m_ObjectHideFlags: 0
@@ -33358,7 +33328,6 @@ GameObject:
   - component: {fileID: 4874206319482734913}
   - component: {fileID: 4874206319479817199}
   - component: {fileID: 4874206319480533413}
-  - component: {fileID: 4548650773090446212}
   m_Layer: 0
   m_Name: VinesA (1)
   m_TagString: Untagged
@@ -33431,20 +33400,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &4548650773090446212
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4874206319482796913}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300006, guid: ce9144522a1ab634684f67fd04f832f1, type: 3}
 --- !u!1 &4874206319552015013
 GameObject:
   m_ObjectHideFlags: 0
@@ -79288,7 +79243,6 @@ GameObject:
   - component: {fileID: 4874206319939868091}
   - component: {fileID: 4874206319936936319}
   - component: {fileID: 4874206319937591771}
-  - component: {fileID: 8890085536854163513}
   m_Layer: 0
   m_Name: VinesC (1)
   m_TagString: Untagged
@@ -79361,20 +79315,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8890085536854163513
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4874206319940108043}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300002, guid: fb3d6b9894ad4224daa94945fc82c0e8, type: 3}
 --- !u!1 &4874206320015260815
 GameObject:
   m_ObjectHideFlags: 0
@@ -79681,7 +79621,6 @@ GameObject:
   - component: {fileID: 4874206320115274915}
   - component: {fileID: 4874206320113999373}
   - component: {fileID: 4874206320113036359}
-  - component: {fileID: 925988897991607885}
   m_Layer: 0
   m_Name: VinesA
   m_TagString: Untagged
@@ -79754,20 +79693,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &925988897991607885
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4874206320114837139}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300006, guid: ce9144522a1ab634684f67fd04f832f1, type: 3}
 --- !u!1 &4874206320145487317
 GameObject:
   m_ObjectHideFlags: 0
@@ -94981,7 +94906,6 @@ GameObject:
   - component: {fileID: 4874206320375166533}
   - component: {fileID: 4874206320373851719}
   - component: {fileID: 4874206320372831495}
-  - component: {fileID: 5721591089897805243}
   m_Layer: 0
   m_Name: VinesB (2)
   m_TagString: Untagged
@@ -95054,20 +94978,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5721591089897805243
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4874206320374885915}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300002, guid: fd429c274eb56cd4b95503346aae2280, type: 3}
 --- !u!1 &4874206320455741943
 GameObject:
   m_ObjectHideFlags: 0
@@ -95472,7 +95382,6 @@ GameObject:
   - component: {fileID: 4874206320550930982}
   - component: {fileID: 4874206320549624356}
   - component: {fileID: 4874206320548596068}
-  - component: {fileID: 2148139956473377118}
   m_Layer: 0
   m_Name: VinesB (3)
   m_TagString: Untagged
@@ -95545,20 +95454,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2148139956473377118
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4874206320550654584}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300002, guid: fd429c274eb56cd4b95503346aae2280, type: 3}
 --- !u!1 &4874206320553691823
 GameObject:
   m_ObjectHideFlags: 0
@@ -95668,7 +95563,6 @@ GameObject:
   - component: {fileID: 4874206320554197161}
   - component: {fileID: 4874206320555511979}
   - component: {fileID: 4874206320556598251}
-  - component: {fileID: 3981005043797220194}
   m_Layer: 0
   m_Name: VinesB (4)
   m_TagString: Untagged
@@ -95741,20 +95635,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &3981005043797220194
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4874206320554449143}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300002, guid: fd429c274eb56cd4b95503346aae2280, type: 3}
 --- !u!1 &4874206320576102348
 GameObject:
   m_ObjectHideFlags: 0
@@ -95864,7 +95744,6 @@ GameObject:
   - component: {fileID: 4874206320625483843}
   - component: {fileID: 4874206320626810979}
   - component: {fileID: 4874206320627909283}
-  - component: {fileID: 7925573768142242179}
   m_Layer: 0
   m_Name: VinesB
   m_TagString: Untagged
@@ -95937,20 +95816,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &7925573768142242179
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4874206320625917027}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300002, guid: fd429c274eb56cd4b95503346aae2280, type: 3}
 --- !u!1 &4874206320651044675
 GameObject:
   m_ObjectHideFlags: 0
