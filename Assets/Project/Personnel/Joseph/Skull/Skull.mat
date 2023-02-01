@@ -9,11 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Skull
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
-  m_ValidKeywords:
-  - _METALLICSPECGLOSSMAP
-  - _NORMALMAP
-  - _OCCLUSIONMAP
-  - _PARALLAXMAP
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -26,11 +22,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 7ac095417498aea41997d18386e25898, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1133f1421f8cd864690e2986146a3870, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 5fdde3f6a9eb21d4b88e2d6077f00d5c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 99b2774894b04db4ab50a060dd053c07, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -50,19 +46,23 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 7ac095417498aea41997d18386e25898, type: 3}
+<<<<<<< Updated upstream
+        m_Texture: {fileID: 2800000, guid: 1133f1421f8cd864690e2986146a3870, type: 3}
+=======
+        m_Texture: {fileID: 0}
+>>>>>>> Stashed changes
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: 125194c0325dc0b47b84633977a77de9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 19040cc86b505f54ba1e43d9cac6396f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2800000, guid: 646510c5ca65baf47ab40148ecb5e414, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9b75115a9c42e9e4d80a855f77d3d238, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
-        m_Texture: {fileID: 2800000, guid: 7303d366bced94144b0a1387639486b1, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1c2d12600dc96db4490f5a7a4b4015d9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
