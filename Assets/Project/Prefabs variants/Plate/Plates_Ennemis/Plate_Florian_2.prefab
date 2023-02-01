@@ -55747,7 +55747,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9066604522306224518}
   m_LocalRotation: {x: -0.5000002, y: -0.50000006, z: 0.50000006, w: -0.49999976}
-  m_LocalPosition: {x: 0.024, y: 1.59, z: -0.136}
+  m_LocalPosition: {x: -0.12, y: 2.18, z: -0.06}
   m_LocalScale: {x: 0, y: 0, z: 0.99982226}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -55767,7 +55767,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 0.5010142, b: 0.11764705, a: 1}
-  m_Intensity: 3
+  m_Intensity: 5.14
   m_Range: 8
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -55872,31 +55872,21 @@ MonoBehaviour:
   profileSync: 1
   useCustomBounds: 0
   bounds:
-    m_Center: {x: 4.826996, y: 6.5864944, z: -77.10447}
+    m_Center: {x: 4.682995, y: 7.1764946, z: -77.028465}
     m_Extent: {x: 0.0000033230306, y: 7.9644575, z: 0.0000041458866}
-  boundsInLocalSpace: 0
   profile: {fileID: 11400000, guid: e9de33acec61944b4a1005f6ed62b843, type: 2}
   customRange: 8
   targetCamera: {fileID: 0}
   useCustomSize: 0
   areaWidth: 1
   areaHeight: 1
-  generatedRange: 8
-  generatedTipRadius: -1
-  generatedSpotAngle: -1
-  generatedBaseRadius: 0
-  generatedAreaWidth: 0
-  generatedAreaHeight: 0
-  generatedAreaFrustumAngle: 0
-  generatedAreaFrustumMultiplier: 0
-  generatedType: 2
   blendMode: 0
   raymarchPreset: 0
   raymarchQuality: 8
   raymarchMinStep: 0.1
   raymarchMaxSteps: 200
   jittering: 0.5
-  dithering: 1
+  dithering: 0.48
   useBlueNoise: 0
   animatedBlueNoise: 1
   renderQueue: 3100
@@ -55920,7 +55910,7 @@ MonoBehaviour:
   noiseFinalMultiplier: 1
   density: 0.1
   mediumAlbedo: {r: 1, g: 1, b: 1, a: 1}
-  brightness: 1.2
+  brightness: 0.48
   attenuationMode: 0
   attenCoefConstant: 1
   attenCoefLinear: 2
@@ -55936,7 +55926,7 @@ MonoBehaviour:
   frustumAngle: 0
   windDirection: {x: 0.03, y: 0.02, z: 0}
   enableDustParticles: 1
-  dustBrightness: 1
+  dustBrightness: 0.48
   dustMinSize: 0.01
   dustMaxSize: 0.02
   dustWindSpeed: 1
@@ -55951,7 +55941,7 @@ MonoBehaviour:
   shadowResolution: 256
   shadowCullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294967293
   shadowBakeInterval: 0
   shadowNearDistance: 0.1
   shadowAutoToggle: 0
@@ -57297,7 +57287,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9066604522491659651}
   m_LocalRotation: {x: -0.5000002, y: -0.50000006, z: 0.50000006, w: -0.49999976}
-  m_LocalPosition: {x: 0.024, y: 1.38, z: 0.09}
+  m_LocalPosition: {x: 0.08, y: 2.059, z: -0.02}
   m_LocalScale: {x: 0, y: 0, z: 0.99982226}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -57422,31 +57412,21 @@ MonoBehaviour:
   profileSync: 1
   useCustomBounds: 0
   bounds:
-    m_Center: {x: 4.826996, y: 6.3764944, z: -82.81847}
+    m_Center: {x: 4.8829956, y: 7.0554943, z: -82.92847}
     m_Extent: {x: 0.0000033230306, y: 7.9644575, z: 0.0000041458866}
-  boundsInLocalSpace: 0
   profile: {fileID: 11400000, guid: e9de33acec61944b4a1005f6ed62b843, type: 2}
   customRange: 8
   targetCamera: {fileID: 0}
   useCustomSize: 0
   areaWidth: 1
   areaHeight: 1
-  generatedRange: 8
-  generatedTipRadius: -1
-  generatedSpotAngle: -1
-  generatedBaseRadius: 0
-  generatedAreaWidth: 0
-  generatedAreaHeight: 0
-  generatedAreaFrustumAngle: 0
-  generatedAreaFrustumMultiplier: 0
-  generatedType: 2
   blendMode: 0
   raymarchPreset: 0
   raymarchQuality: 8
   raymarchMinStep: 0.1
   raymarchMaxSteps: 200
   jittering: 0.5
-  dithering: 1
+  dithering: 0.48
   useBlueNoise: 0
   animatedBlueNoise: 1
   renderQueue: 3100
@@ -57470,7 +57450,7 @@ MonoBehaviour:
   noiseFinalMultiplier: 1
   density: 0.1
   mediumAlbedo: {r: 1, g: 1, b: 1, a: 1}
-  brightness: 1.2
+  brightness: 0.48
   attenuationMode: 0
   attenCoefConstant: 1
   attenCoefLinear: 2
@@ -57486,7 +57466,7 @@ MonoBehaviour:
   frustumAngle: 0
   windDirection: {x: 0.03, y: 0.02, z: 0}
   enableDustParticles: 1
-  dustBrightness: 1
+  dustBrightness: 0.48
   dustMinSize: 0.01
   dustMaxSize: 0.02
   dustWindSpeed: 1
@@ -57501,7 +57481,7 @@ MonoBehaviour:
   shadowResolution: 256
   shadowCullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294967293
   shadowBakeInterval: 0
   shadowNearDistance: 0.1
   shadowAutoToggle: 0
@@ -57537,7 +57517,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f894836b3e078e34aa96106e4cb7d114, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -72015,7 +71995,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9066604522504016465}
   m_LocalRotation: {x: -0.5000002, y: -0.50000006, z: 0.50000006, w: -0.49999976}
-  m_LocalPosition: {x: 0.024, y: 1.616, z: 0.09}
+  m_LocalPosition: {x: 0.024, y: 2.13, z: 0.09}
   m_LocalScale: {x: 0, y: 0, z: 0.99982226}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -72035,7 +72015,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 0.5010142, b: 0.11764705, a: 1}
-  m_Intensity: 1.5
+  m_Intensity: 5.14
   m_Range: 8
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -72140,31 +72120,21 @@ MonoBehaviour:
   profileSync: 1
   useCustomBounds: 0
   bounds:
-    m_Center: {x: 14.390989, y: 6.6124945, z: -83.028465}
+    m_Center: {x: 14.390989, y: 7.1264944, z: -83.028465}
     m_Extent: {x: 0.0000033230306, y: 7.9644575, z: 0.0000041458866}
-  boundsInLocalSpace: 0
   profile: {fileID: 11400000, guid: e9de33acec61944b4a1005f6ed62b843, type: 2}
   customRange: 8
   targetCamera: {fileID: 0}
   useCustomSize: 0
   areaWidth: 1
   areaHeight: 1
-  generatedRange: 8
-  generatedTipRadius: -1
-  generatedSpotAngle: -1
-  generatedBaseRadius: 0
-  generatedAreaWidth: 0
-  generatedAreaHeight: 0
-  generatedAreaFrustumAngle: 0
-  generatedAreaFrustumMultiplier: 0
-  generatedType: 2
   blendMode: 0
   raymarchPreset: 0
   raymarchQuality: 8
   raymarchMinStep: 0.1
   raymarchMaxSteps: 200
   jittering: 0.5
-  dithering: 1
+  dithering: 0.48
   useBlueNoise: 0
   animatedBlueNoise: 1
   renderQueue: 3100
@@ -72188,7 +72158,7 @@ MonoBehaviour:
   noiseFinalMultiplier: 1
   density: 0.1
   mediumAlbedo: {r: 1, g: 1, b: 1, a: 1}
-  brightness: 1.2
+  brightness: 0.48
   attenuationMode: 0
   attenCoefConstant: 1
   attenCoefLinear: 2
@@ -72204,7 +72174,7 @@ MonoBehaviour:
   frustumAngle: 0
   windDirection: {x: 0.03, y: 0.02, z: 0}
   enableDustParticles: 1
-  dustBrightness: 1
+  dustBrightness: 0.48
   dustMinSize: 0.01
   dustMaxSize: 0.02
   dustWindSpeed: 1
@@ -72219,7 +72189,7 @@ MonoBehaviour:
   shadowResolution: 256
   shadowCullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294967293
   shadowBakeInterval: 0
   shadowNearDistance: 0.1
   shadowAutoToggle: 0
@@ -108111,29 +108081,19 @@ MonoBehaviour:
   bounds:
     m_Center: {x: 5.7044334, y: 0.844, z: -85.02047}
     m_Extent: {x: 0.0000033230306, y: 7.9644575, z: 0.0000041458866}
-  boundsInLocalSpace: 0
   profile: {fileID: 11400000, guid: e9de33acec61944b4a1005f6ed62b843, type: 2}
   customRange: 8
   targetCamera: {fileID: 0}
   useCustomSize: 0
   areaWidth: 1
   areaHeight: 1
-  generatedRange: 8
-  generatedTipRadius: -1
-  generatedSpotAngle: -1
-  generatedBaseRadius: 0
-  generatedAreaWidth: 0
-  generatedAreaHeight: 0
-  generatedAreaFrustumAngle: 0
-  generatedAreaFrustumMultiplier: 0
-  generatedType: 2
   blendMode: 0
   raymarchPreset: 0
   raymarchQuality: 8
   raymarchMinStep: 0.1
   raymarchMaxSteps: 200
   jittering: 0.5
-  dithering: 1
+  dithering: 0.48
   useBlueNoise: 0
   animatedBlueNoise: 1
   renderQueue: 3100
@@ -108157,7 +108117,7 @@ MonoBehaviour:
   noiseFinalMultiplier: 1
   density: 0.1
   mediumAlbedo: {r: 1, g: 1, b: 1, a: 1}
-  brightness: 1.2
+  brightness: 0.48
   attenuationMode: 0
   attenCoefConstant: 1
   attenCoefLinear: 2
@@ -108173,7 +108133,7 @@ MonoBehaviour:
   frustumAngle: 0
   windDirection: {x: 0.03, y: 0.02, z: 0}
   enableDustParticles: 1
-  dustBrightness: 1
+  dustBrightness: 0.48
   dustMinSize: 0.01
   dustMaxSize: 0.02
   dustWindSpeed: 1
@@ -108188,7 +108148,7 @@ MonoBehaviour:
   shadowResolution: 256
   shadowCullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294967293
   shadowBakeInterval: 0
   shadowNearDistance: 0.1
   shadowAutoToggle: 0
@@ -108224,7 +108184,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f894836b3e078e34aa96106e4cb7d114, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -124016,29 +123976,19 @@ MonoBehaviour:
   bounds:
     m_Center: {x: 5.5380516, y: 0.88600016, z: -80.29934}
     m_Extent: {x: 0.0000033230306, y: 7.9644575, z: 0.0000041458866}
-  boundsInLocalSpace: 0
   profile: {fileID: 11400000, guid: e9de33acec61944b4a1005f6ed62b843, type: 2}
   customRange: 8
   targetCamera: {fileID: 0}
   useCustomSize: 0
   areaWidth: 1
   areaHeight: 1
-  generatedRange: 8
-  generatedTipRadius: -1
-  generatedSpotAngle: -1
-  generatedBaseRadius: 0
-  generatedAreaWidth: 0
-  generatedAreaHeight: 0
-  generatedAreaFrustumAngle: 0
-  generatedAreaFrustumMultiplier: 0
-  generatedType: 2
   blendMode: 0
   raymarchPreset: 0
   raymarchQuality: 8
   raymarchMinStep: 0.1
   raymarchMaxSteps: 200
   jittering: 0.5
-  dithering: 1
+  dithering: 0.48
   useBlueNoise: 0
   animatedBlueNoise: 1
   renderQueue: 3100
@@ -124062,7 +124012,7 @@ MonoBehaviour:
   noiseFinalMultiplier: 1
   density: 0.1
   mediumAlbedo: {r: 1, g: 1, b: 1, a: 1}
-  brightness: 1.2
+  brightness: 0.48
   attenuationMode: 0
   attenCoefConstant: 1
   attenCoefLinear: 2
@@ -124078,7 +124028,7 @@ MonoBehaviour:
   frustumAngle: 0
   windDirection: {x: 0.03, y: 0.02, z: 0}
   enableDustParticles: 1
-  dustBrightness: 1
+  dustBrightness: 0.48
   dustMinSize: 0.01
   dustMaxSize: 0.02
   dustWindSpeed: 1
@@ -124093,7 +124043,7 @@ MonoBehaviour:
   shadowResolution: 256
   shadowCullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294967293
   shadowBakeInterval: 0
   shadowNearDistance: 0.1
   shadowAutoToggle: 0
@@ -124129,7 +124079,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f894836b3e078e34aa96106e4cb7d114, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -153928,7 +153878,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9066604523571583619}
   m_LocalRotation: {x: -0.5000002, y: -0.50000006, z: 0.50000006, w: -0.49999976}
-  m_LocalPosition: {x: 0.024, y: 1.403, z: -0.042}
+  m_LocalPosition: {x: 0.024, y: 2.19, z: -0.04}
   m_LocalScale: {x: 0, y: 0, z: 0.99982226}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -153948,7 +153898,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 0.5010142, b: 0.11764705, a: 1}
-  m_Intensity: 3
+  m_Intensity: 5.14
   m_Range: 8
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -154053,31 +154003,21 @@ MonoBehaviour:
   profileSync: 1
   useCustomBounds: 0
   bounds:
-    m_Center: {x: 14.390989, y: 6.399494, z: -77.01047}
+    m_Center: {x: 14.390989, y: 7.1864944, z: -77.00847}
     m_Extent: {x: 0.0000033230306, y: 7.9644575, z: 0.0000041458866}
-  boundsInLocalSpace: 0
   profile: {fileID: 11400000, guid: e9de33acec61944b4a1005f6ed62b843, type: 2}
   customRange: 8
   targetCamera: {fileID: 0}
   useCustomSize: 0
   areaWidth: 1
   areaHeight: 1
-  generatedRange: 8
-  generatedTipRadius: -1
-  generatedSpotAngle: -1
-  generatedBaseRadius: 0
-  generatedAreaWidth: 0
-  generatedAreaHeight: 0
-  generatedAreaFrustumAngle: 0
-  generatedAreaFrustumMultiplier: 0
-  generatedType: 2
   blendMode: 0
   raymarchPreset: 0
   raymarchQuality: 8
   raymarchMinStep: 0.1
   raymarchMaxSteps: 200
   jittering: 0.5
-  dithering: 1
+  dithering: 0.48
   useBlueNoise: 0
   animatedBlueNoise: 1
   renderQueue: 3100
@@ -154101,7 +154041,7 @@ MonoBehaviour:
   noiseFinalMultiplier: 1
   density: 0.1
   mediumAlbedo: {r: 1, g: 1, b: 1, a: 1}
-  brightness: 1.2
+  brightness: 0.48
   attenuationMode: 0
   attenCoefConstant: 1
   attenCoefLinear: 2
@@ -154117,7 +154057,7 @@ MonoBehaviour:
   frustumAngle: 0
   windDirection: {x: 0.03, y: 0.02, z: 0}
   enableDustParticles: 1
-  dustBrightness: 1
+  dustBrightness: 0.48
   dustMinSize: 0.01
   dustMaxSize: 0.02
   dustWindSpeed: 1
@@ -154132,7 +154072,7 @@ MonoBehaviour:
   shadowResolution: 256
   shadowCullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294967293
   shadowBakeInterval: 0
   shadowNearDistance: 0.1
   shadowAutoToggle: 0
