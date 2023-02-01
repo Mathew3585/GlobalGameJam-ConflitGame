@@ -8,17 +8,24 @@ public class DorrDetectPlayer : MonoBehaviour
 
     public GameObject uiHand;
     public Animator uiLoad;
+    private bool detecter;
     ASKInputManager m_Input;
 
+    private void Update()
+    {
+        if (Input.GetButtonDown("Interaction") && detecter)
+        {
+            Debug.Log("OpenDoor");
+            uiLoad.SetBool("ActiveTp", true);
+            Debug.Log("OpenDoor");
+        }
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            if (Input.GetButtonDown("Interaction"))
-            {
-                uiLoad.SetBool("ActiveTp", true);
-            }
-                uiHand.SetActive(true);
+            detecter = true;
+            uiHand.SetActive(true);
             Debug.Log("Player Detect");
         }
     }
@@ -27,6 +34,7 @@ public class DorrDetectPlayer : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            detecter = false;
             uiHand.SetActive(false);
             Debug.Log("Player Exit");
         }
