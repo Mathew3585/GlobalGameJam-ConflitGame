@@ -9337,18 +9337,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Braseiro (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 402106, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.9999999
-      objectReference: {fileID: 0}
-    - target: {fileID: 402106, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.9999999
-      objectReference: {fileID: 0}
-    - target: {fileID: 402106, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.99999976
-      objectReference: {fileID: 0}
     - target: {fileID: 478194, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
       propertyPath: m_RootOrder
       value: 54
@@ -9397,11 +9385,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 51.473
       objectReference: {fileID: 0}
-    - target: {fileID: 1375476542774718648, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
         type: 3}
       propertyPath: dithering
@@ -9411,96 +9394,6 @@ PrefabInstance:
         type: 3}
       propertyPath: dustBrightness
       value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: bounds.m_Center.x
-      value: 275.88617
-      objectReference: {fileID: 0}
-    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: bounds.m_Center.y
-      value: 6.0219975
-      objectReference: {fileID: 0}
-    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: bounds.m_Center.z
-      value: -46.173576
-      objectReference: {fileID: 0}
-    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: bounds.m_Extent.x
-      value: 11.214894
-      objectReference: {fileID: 0}
-    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: bounds.m_Extent.y
-      value: 7.9658794
-      objectReference: {fileID: 0}
-    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: bounds.m_Extent.z
-      value: 11.2203245
-      objectReference: {fileID: 0}
-    - target: {fileID: 2727819990289225153, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8090144419171189068, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8090144419171189068, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8464158823742123160, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.x.scalar
-      value: 0.07653056
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.y.scalar
-      value: 0.11868649
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.z.scalar
-      value: 0.07999998
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.x.minScalar
-      value: -0.12346944
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.y.minScalar
-      value: -0.08131351
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.z.minScalar
-      value: -0.12000002
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: InitialModule.startSize.scalar
-      value: 0.04
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: InitialModule.startSize.minScalar
-      value: 0.02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
@@ -10255,18 +10148,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Braseiro (2)_2
       objectReference: {fileID: 0}
-    - target: {fileID: 402106, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.9999999
-      objectReference: {fileID: 0}
-    - target: {fileID: 402106, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.9999999
-      objectReference: {fileID: 0}
-    - target: {fileID: 402106, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.99999964
-      objectReference: {fileID: 0}
     - target: {fileID: 478194, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -10315,11 +10196,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 51.473
       objectReference: {fileID: 0}
-    - target: {fileID: 1375476542774718648, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
         type: 3}
       propertyPath: dithering
@@ -10329,96 +10205,6 @@ PrefabInstance:
         type: 3}
       propertyPath: dustBrightness
       value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: bounds.m_Center.x
-      value: 270.41223
-      objectReference: {fileID: 0}
-    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: bounds.m_Center.y
-      value: 10.929468
-      objectReference: {fileID: 0}
-    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: bounds.m_Center.z
-      value: -43.205906
-      objectReference: {fileID: 0}
-    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: bounds.m_Extent.x
-      value: 11.214894
-      objectReference: {fileID: 0}
-    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: bounds.m_Extent.y
-      value: 7.965879
-      objectReference: {fileID: 0}
-    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: bounds.m_Extent.z
-      value: 11.220325
-      objectReference: {fileID: 0}
-    - target: {fileID: 2727819990289225153, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8090144419171189068, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8090144419171189068, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8464158823742123160, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.x.scalar
-      value: 0.07653056
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.y.scalar
-      value: 0.11868649
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.z.scalar
-      value: 0.07999998
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.x.minScalar
-      value: -0.12346944
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.y.minScalar
-      value: -0.08131351
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.z.minScalar
-      value: -0.12000002
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: InitialModule.startSize.scalar
-      value: 0.04
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: InitialModule.startSize.minScalar
-      value: 0.02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
@@ -10464,18 +10250,6 @@ PrefabInstance:
     - target: {fileID: 171074, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
       propertyPath: m_Name
       value: Braseiro (2)_4
-      objectReference: {fileID: 0}
-    - target: {fileID: 402106, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.9999995
-      objectReference: {fileID: 0}
-    - target: {fileID: 402106, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.99999976
-      objectReference: {fileID: 0}
-    - target: {fileID: 402106, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.9999995
       objectReference: {fileID: 0}
     - target: {fileID: 478194, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
       propertyPath: m_RootOrder
@@ -10532,11 +10306,6 @@ PrefabInstance:
     - target: {fileID: 478194, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 77.875
-      objectReference: {fileID: 0}
-    - target: {fileID: 1375476542774718648, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
         type: 3}
@@ -10663,56 +10432,6 @@ PrefabInstance:
         type: 3}
       propertyPath: shadowCullingMask.m_Bits
       value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 2727819990289225153, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8090144419171189068, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8090144419171189068, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8464158823742123160, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.x.scalar
-      value: 0.07613039
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.y.scalar
-      value: 0.118172556
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.z.scalar
-      value: 0.07999998
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.x.minScalar
-      value: -0.12386961
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.y.minScalar
-      value: -0.08182745
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.z.minScalar
-      value: -0.12000002
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
@@ -13563,18 +13282,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Braseiro (2)_3
       objectReference: {fileID: 0}
-    - target: {fileID: 402106, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.9999995
-      objectReference: {fileID: 0}
-    - target: {fileID: 402106, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.99999976
-      objectReference: {fileID: 0}
-    - target: {fileID: 402106, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.9999995
-      objectReference: {fileID: 0}
     - target: {fileID: 478194, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -13631,11 +13338,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 77.875
       objectReference: {fileID: 0}
-    - target: {fileID: 1375476542774718648, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
         type: 3}
       propertyPath: dithering
@@ -13645,96 +13347,6 @@ PrefabInstance:
         type: 3}
       propertyPath: dustBrightness
       value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: bounds.m_Center.x
-      value: 308.7107
-      objectReference: {fileID: 0}
-    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: bounds.m_Center.y
-      value: 10.932841
-      objectReference: {fileID: 0}
-    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: bounds.m_Center.z
-      value: -47.591766
-      objectReference: {fileID: 0}
-    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: bounds.m_Extent.x
-      value: 11.184097
-      objectReference: {fileID: 0}
-    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: bounds.m_Extent.y
-      value: 7.9658813
-      objectReference: {fileID: 0}
-    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: bounds.m_Extent.z
-      value: 11.190573
-      objectReference: {fileID: 0}
-    - target: {fileID: 2727819990289225153, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8090144419171189068, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8090144419171189068, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8464158823742123160, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.x.scalar
-      value: 0.07613039
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.y.scalar
-      value: 0.118172556
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.z.scalar
-      value: 0.07999998
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.x.minScalar
-      value: -0.12386961
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.y.minScalar
-      value: -0.08182745
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.z.minScalar
-      value: -0.12000002
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: InitialModule.startSize.scalar
-      value: 0.04
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: InitialModule.startSize.minScalar
-      value: 0.02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
@@ -18992,18 +18604,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Braseiro (2)_1
       objectReference: {fileID: 0}
-    - target: {fileID: 402106, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.9999993
-      objectReference: {fileID: 0}
-    - target: {fileID: 402106, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.9999999
-      objectReference: {fileID: 0}
-    - target: {fileID: 402106, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.99999917
-      objectReference: {fileID: 0}
     - target: {fileID: 478194, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -19052,11 +18652,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 230.531
       objectReference: {fileID: 0}
-    - target: {fileID: 1375476542774718648, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
         type: 3}
       propertyPath: dithering
@@ -19066,81 +18661,6 @@ PrefabInstance:
         type: 3}
       propertyPath: dustBrightness
       value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: bounds.m_Center.x
-      value: 302.54034
-      objectReference: {fileID: 0}
-    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: bounds.m_Center.y
-      value: 6.0219965
-      objectReference: {fileID: 0}
-    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: bounds.m_Center.z
-      value: -49.99975
-      objectReference: {fileID: 0}
-    - target: {fileID: 2727819990289225153, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8090144419171189068, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8090144419171189068, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8464158823742123160, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.x.scalar
-      value: 0.123159066
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.y.scalar
-      value: 0.08093015
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.z.scalar
-      value: 0.08000001
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.x.minScalar
-      value: -0.07684094
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.y.minScalar
-      value: -0.11906985
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.z.minScalar
-      value: -0.11999999
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: InitialModule.startSize.scalar
-      value: 0.04
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: InitialModule.startSize.minScalar
-      value: 0.02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
@@ -19452,18 +18972,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Braseiro (2)_1
       objectReference: {fileID: 0}
-    - target: {fileID: 402106, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.9999999
-      objectReference: {fileID: 0}
-    - target: {fileID: 402106, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.9999999
-      objectReference: {fileID: 0}
-    - target: {fileID: 402106, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.99999964
-      objectReference: {fileID: 0}
     - target: {fileID: 478194, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -19512,11 +19020,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 51.473
       objectReference: {fileID: 0}
-    - target: {fileID: 1375476542774718648, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
         type: 3}
       propertyPath: dithering
@@ -19526,96 +19029,6 @@ PrefabInstance:
         type: 3}
       propertyPath: dustBrightness
       value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: bounds.m_Center.x
-      value: 270.0137
-      objectReference: {fileID: 0}
-    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: bounds.m_Center.y
-      value: 10.927737
-      objectReference: {fileID: 0}
-    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: bounds.m_Center.z
-      value: -48.373264
-      objectReference: {fileID: 0}
-    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: bounds.m_Extent.x
-      value: 11.214894
-      objectReference: {fileID: 0}
-    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: bounds.m_Extent.y
-      value: 7.965879
-      objectReference: {fileID: 0}
-    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: bounds.m_Extent.z
-      value: 11.220325
-      objectReference: {fileID: 0}
-    - target: {fileID: 2727819990289225153, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8090144419171189068, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8090144419171189068, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8464158823742123160, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.x.scalar
-      value: 0.07653056
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.y.scalar
-      value: 0.11868649
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.z.scalar
-      value: 0.07999998
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.x.minScalar
-      value: -0.12346944
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.y.minScalar
-      value: -0.08131351
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: VelocityModule.z.minScalar
-      value: -0.12000002
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: InitialModule.startSize.scalar
-      value: 0.04
-      objectReference: {fileID: 0}
-    - target: {fileID: 9097886738963428829, guid: 2d115b1ca4859a246861e7bc3b4bb822,
-        type: 3}
-      propertyPath: InitialModule.startSize.minScalar
-      value: 0.02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
