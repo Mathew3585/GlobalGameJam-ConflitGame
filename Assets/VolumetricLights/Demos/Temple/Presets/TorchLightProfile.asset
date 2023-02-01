@@ -16,13 +16,21 @@ MonoBehaviour:
   raymarchPreset: 20
   raymarchQuality: 4
   raymarchMinStep: 0.2
+  raymarchMaxSteps: 200
   jittering: 1
   dithering: 0.1
   useBlueNoise: 1
+  animatedBlueNoise: 1
   renderQueue: 3101
   sortingLayerID: 0
   sortingOrder: 0
+  flipDepthTexture: 0
   alwaysOn: 0
+  castDirectLight: 0
+  directLightMultiplier: 1
+  directLightSmoothSamples: 8
+  directLightSmoothRadius: 4
+  directLightBlendMode: 0
   autoToggle: 0
   distanceStartDimming: 70
   distanceDeactivation: 100
@@ -44,6 +52,9 @@ MonoBehaviour:
   penumbra: 1
   tipRadius: 0
   cookieTexture: {fileID: 0}
+  cookieScale: {x: 1, y: 1}
+  cookieOffset: {x: 0, y: 0}
+  cookieSpeed: {x: 0, y: 0}
   frustumAngle: 0
   windDirection: {x: 0.03, y: 0.02, z: 0}
   enableDustParticles: 1
@@ -56,6 +67,9 @@ MonoBehaviour:
   dustDistanceDeactivation: 70
   enableShadows: 0
   shadowIntensity: 1
+  shadowTranslucency: 0
+  shadowTranslucencyIntensity: 1
+  shadowTranslucencyBlend: 0.5
   shadowResolution: 1024
   shadowCullingMask:
     serializedVersion: 2
@@ -64,6 +78,6 @@ MonoBehaviour:
   shadowNearDistance: 0.1
   shadowAutoToggle: 0
   shadowDistanceDeactivation: 250
-  shadowUseDefaultRTFormat: 0
+  shadowBakeMode: 0
   shadowOrientation: 0
   shadowDirection: {x: 0, y: -1, z: 0}
