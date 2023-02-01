@@ -1,3 +1,4 @@
+using AdvancedShooterKit;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,14 +8,17 @@ public class DorrDetectPlayer : MonoBehaviour
 
     public GameObject uiHand;
     public Animator uiLoad;
+    ASKInputManager m_Input;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            if(Input.GetButtonDown())
-            uiHand.SetActive(true);
-            uiLoad.SetBool("ActiveTp", true);
+            if (Input.GetButtonDown("Interaction"))
+            {
+                uiLoad.SetBool("ActiveTp", true);
+            }
+                uiHand.SetActive(true);
             Debug.Log("Player Detect");
         }
     }
