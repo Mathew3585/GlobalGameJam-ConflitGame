@@ -39,7 +39,7 @@ MonoBehaviour:
     actionAxes: []
   - name: Next Ammotype
     type: 0
-    keys: 630000004f010000
+    keys: 770000004f010000
     actionAxes: []
   - name: To Subweapon
     type: 0
