@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Project/Materials/Pistolet.meta
 guid: 9ced1e4130d46a242a1d01878df3114c
+========
+guid: 71fb7d0096ee7174098f9951ec7adfee
+>>>>>>>> 6153828d5361bbfb12b79c4b349561a70f1e13a5:Assets/Joseph/Skull.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
