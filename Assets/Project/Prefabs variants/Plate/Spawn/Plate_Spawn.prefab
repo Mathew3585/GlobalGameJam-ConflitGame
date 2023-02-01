@@ -4380,6 +4380,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 51.473
       objectReference: {fileID: 0}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: dithering
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: dustBrightness
+      value: 1.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
 --- !u!4 &9208604629385079203 stripped
@@ -5181,6 +5191,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 51.473
       objectReference: {fileID: 0}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: dithering
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: dustBrightness
+      value: 1.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
 --- !u!4 &9208604629468364105 stripped
@@ -5281,6 +5301,132 @@ PrefabInstance:
     - target: {fileID: 478194, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 77.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: density
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: profile
+      value: 
+      objectReference: {fileID: 11400000, guid: e9de33acec61944b4a1005f6ed62b843,
+        type: 2}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: jittering
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: dustMaxSize
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: dustMinSize
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: renderQueue
+      value: 3100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: useBlueNoise
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: noiseStrength
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: raymarchPreset
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: attenuationMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: raymarchMinStep
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: raymarchQuality
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: shadowIntensity
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: shadowResolution
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: bounds.m_Center.x
+      value: 308.20007
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: bounds.m_Center.y
+      value: 10.931119
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: bounds.m_Center.z
+      value: -52.74929
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: bounds.m_Extent.x
+      value: 11.184097
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: bounds.m_Extent.y
+      value: 7.9658813
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: bounds.m_Extent.z
+      value: 11.190573
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: attenCoefQuadratic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: diffusionIntensity
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: shadowBakeInterval
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: dustDistanceAttenuation
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: shadowCullingMask.m_Bits
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
@@ -8146,6 +8292,16 @@ PrefabInstance:
     - target: {fileID: 478194, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 77.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: dithering
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: dustBrightness
+      value: 1.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
@@ -13561,6 +13717,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 230.531
       objectReference: {fileID: 0}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: dithering
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: dustBrightness
+      value: 1.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
 --- !u!1 &9208604630547270597 stripped
@@ -13953,6 +14119,16 @@ PrefabInstance:
     - target: {fileID: 478194, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 51.473
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: dithering
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792542241802692021, guid: 2d115b1ca4859a246861e7bc3b4bb822,
+        type: 3}
+      propertyPath: dustBrightness
+      value: 1.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d115b1ca4859a246861e7bc3b4bb822, type: 3}
