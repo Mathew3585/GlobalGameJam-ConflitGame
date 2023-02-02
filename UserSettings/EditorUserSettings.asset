@@ -13,6 +13,7 @@ EditorUserSettings:
       value: 5308045607065909080b0a2647710644154e4d7a797f22637b7e4a60e6e2636c
       flags: 0
     RecentlyUsedSceneGuid-2:
+<<<<<<< HEAD
       value: 5501550355000c5f5b0f097440740c44424f1a2b78792061752f1e60b5b0313b
       flags: 0
     RecentlyUsedSceneGuid-3:
@@ -49,6 +50,16 @@ EditorUserSettings:
       value: 5350575f53575b0f0e5e5a7446745c4417154d7b2a7171682c2d1f64e1b2356c
       flags: 0
 >>>>>>> Stashed changes
+=======
+      value: 555552575c060c0e0e0f5f7012705c4414164e787a2920647e7f4b31b5b1366a
+      flags: 0
+    RecentlyUsedSceneGuid-3:
+      value: 5350575f53575b0f0e5e5a7446745c4417154d7b2a7171682c2d1f64e1b2356c
+      flags: 0
+    RecentlyUsedSceneGuid-4:
+      value: 5355035f540c0d580e0b597044750644154f4a287a2a72602c2c1c61b5b3356e
+      flags: 0
+>>>>>>> a897844df2fdb8103ee0df8e2ef9cc42c060a797
     vcSharedLogLevel:
       value: 0d5e400f0650
       flags: 0
