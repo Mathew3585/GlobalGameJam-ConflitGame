@@ -6,6 +6,7 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
+<<<<<<< Updated upstream
       value: 550600515d0651095b595a7446775e44444f4f787d2c2734287d4d60e1e6606f
       flags: 0
     RecentlyUsedSceneGuid-1:
@@ -38,6 +39,16 @@ EditorUserSettings:
     UnityEditor.ShaderGraph.InspectorWindow:
       value: 18135939215a0a5004000b0e15254b524c1119263f2d6a722016393ce1eb3d36e5d339f9a5602b2e2c07a37e0901373ae01e0008f707250d171df81a53a5485d41895ac825e0100ec20313c0d91cddccd3d0c7efcca9bd80908fecb0f9cfddf1eff4e7a1b1eae482f0fcaee1e1928b86d888ed969b938797a7cf
       flags: 0
+=======
+      value: 5501550355000c5f5b0f097440740c44424f1a2b78792061752f1e60b5b0313b
+      flags: 0
+    RecentlyUsedSceneGuid-1:
+      value: 555552575c060c0e0e0f5f7012705c4414164e787a2920647e7f4b31b5b1366a
+      flags: 0
+    RecentlyUsedSceneGuid-2:
+      value: 5350575f53575b0f0e5e5a7446745c4417154d7b2a7171682c2d1f64e1b2356c
+      flags: 0
+>>>>>>> Stashed changes
     vcSharedLogLevel:
       value: 0d5e400f0650
       flags: 0
