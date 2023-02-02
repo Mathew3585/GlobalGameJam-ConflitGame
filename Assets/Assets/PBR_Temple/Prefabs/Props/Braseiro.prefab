@@ -84,7 +84,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 0.5010142, b: 0.11764705, a: 1}
-  m_Intensity: 1.5
+  m_Intensity: 0.48
   m_Range: 8
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -126,7 +126,7 @@ Light:
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
+  m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
@@ -186,37 +186,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2d25995c984d4f869d603b12fb4e28e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profileSync: 1
+  profileSync: 0
   useCustomBounds: 0
   bounds:
     m_Center: {x: 0.024, y: 2.082, z: 0.09000009}
     m_Extent: {x: 0.0000033230306, y: 7.9644575, z: 0.0000041458866}
-  boundsInLocalSpace: 0
-  profile: {fileID: 11400000, guid: e9de33acec61944b4a1005f6ed62b843, type: 2}
+  profile: {fileID: 11400000, guid: b30e545885261414487c21200fc4c4de, type: 2}
   customRange: 8
   targetCamera: {fileID: 0}
   useCustomSize: 0
   areaWidth: 1
   areaHeight: 1
-  generatedRange: 8
-  generatedTipRadius: -1
-  generatedSpotAngle: -1
-  generatedBaseRadius: 0
-  generatedAreaWidth: 0
-  generatedAreaHeight: 0
-  generatedAreaFrustumAngle: 0
-  generatedAreaFrustumMultiplier: 0
-  generatedType: 2
   blendMode: 0
-  raymarchPreset: 0
-  raymarchQuality: 8
-  raymarchMinStep: 0.1
+  raymarchPreset: 20
+  raymarchQuality: 4
+  raymarchMinStep: 0.2
   raymarchMaxSteps: 200
-  jittering: 0.5
+  jittering: 1
   dithering: 1
-  useBlueNoise: 0
+  useBlueNoise: 1
   animatedBlueNoise: 1
-  renderQueue: 3100
+  renderQueue: 3101
   sortingLayerID: 0
   sortingOrder: 0
   flipDepthTexture: 0
@@ -232,18 +222,18 @@ MonoBehaviour:
   autoToggleCheckInterval: 1
   useNoise: 0
   noiseTexture: {fileID: 11700000, guid: 5b3147e9423af4f2cb0f6911a7a9b205, type: 2}
-  noiseStrength: 1
+  noiseStrength: 1.04
   noiseScale: 1
   noiseFinalMultiplier: 1
-  density: 0.1
+  density: 1
   mediumAlbedo: {r: 1, g: 1, b: 1, a: 1}
-  brightness: 1.2
-  attenuationMode: 0
+  brightness: 0.48
+  attenuationMode: 1
   attenCoefConstant: 1
   attenCoefLinear: 2
-  attenCoefQuadratic: 1
+  attenCoefQuadratic: 15
   rangeFallOff: 1
-  diffusionIntensity: 0.5
+  diffusionIntensity: 0
   penumbra: 1
   tipRadius: 0
   cookieTexture: {fileID: 0}
@@ -254,22 +244,22 @@ MonoBehaviour:
   windDirection: {x: 0.03, y: 0.02, z: 0}
   enableDustParticles: 1
   dustBrightness: 1
-  dustMinSize: 0.01
-  dustMaxSize: 0.02
+  dustMinSize: 0.02
+  dustMaxSize: 0.04
   dustWindSpeed: 1
-  dustDistanceAttenuation: 10
+  dustDistanceAttenuation: 15
   dustAutoToggle: 0
   dustDistanceDeactivation: 70
   enableShadows: 0
-  shadowIntensity: 0.9
+  shadowIntensity: 1
   shadowTranslucency: 0
   shadowTranslucencyIntensity: 1
   shadowTranslucencyBlend: 0.5
-  shadowResolution: 256
+  shadowResolution: 1024
   shadowCullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
-  shadowBakeInterval: 0
+    m_Bits: 4294967293
+  shadowBakeInterval: 1
   shadowNearDistance: 0.1
   shadowAutoToggle: 0
   shadowDistanceDeactivation: 250
@@ -14629,7 +14619,7 @@ GameObject:
   - component: {fileID: 478194}
   - component: {fileID: 3348706}
   - component: {fileID: 2389886}
-  - component: {fileID: 6462276}
+  - component: {fileID: 7486820707601081098}
   m_Layer: 0
   m_Name: Braseiro
   m_TagString: Untagged
@@ -14704,8 +14694,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6462276
-MeshCollider:
+--- !u!65 &7486820707601081098
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -14714,10 +14704,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300002, guid: 853be85baa74e5b4d8eb504b48fac3f7, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.7711196, y: 1.3563122, z: 0.75700986}
+  m_Center: {x: -0.0013465881, y: 0.66117936, z: 0.0014259219}
 --- !u!1 &2727819990289225153
 GameObject:
   m_ObjectHideFlags: 0
@@ -15003,8 +14992,8 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.02
-      minScalar: 0.01
+      scalar: 0.04
+      minScalar: 0.02
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -19491,7 +19480,6 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
   - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
