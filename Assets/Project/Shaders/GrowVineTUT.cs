@@ -4,27 +4,27 @@ using UnityEngine;
 
 public class GrowVineTUT : MonoBehaviour
 {
-    public List<MeshRenderer> growVinesrenderers;
+    public List<MeshRenderer> growVinesMeshes;
     public float Timetogrow = 5;
     public float RefreshRate = 0.05f;
-    [Range(0f, 1f)]
+    [Range(0, 1)]
     public float minGrow = 0.2f;
-    [Range(0f, 1f)]
+    [Range(0, 1)]
     public float maxGrow = 0.97f;
 
     private List<Material> growVinesMaterials = new List<Material> ();
     private bool FullyGrown;
 
-    private void Start()
+    void Start()
     {
-        for (int i = 0; i < growVinesrenderers.Count; i++)
+        for (int i=0; i < growVinesMeshes.Count; i++)
         {
-            for (int j = 0; j < growVinesrenderers[i].materials.Length; j++)
+            for (int j=0; j<growVinesMeshes[i].materials.Length; j++)
             {
-                if (growVinesrenderers[i].materials[j].HasProperty("Grow_"))
+                if (growVinesMeshes[i].materials[j].HasProperty("Grow_"))
                 {
-                    growVinesrenderers[i].materials[j].SetFloat("Grow_", minGrow);
-                    growVinesMaterials.Add(growVinesrenderers[i].materials[j]);
+                    growVinesMeshes[i].materials[j].SetFloat("Grow_", minGrow);
+                    growVinesMaterials.Add(growVinesMeshes[i].materials[j]);
                 }
             }
         }
@@ -32,12 +32,16 @@ public class GrowVineTUT : MonoBehaviour
 
 
 
-    private void Update()
+    void Update()
     {
-        for (int i = 0; i < growVinesMaterials.Count; i++)
+        if(Input.GetKeyDown(KeyCode.Space))
         {
-            StartCoroutine(GrowVines(growVinesMaterials[i]));
+            for (int i = 0; i < growVinesMaterials.Count; i++)
+            {
+                StartCoroutine(GrowVines(growVinesMaterials[i]));
+            }       
         }
+        
     }
 
     IEnumerator GrowVines(Material mat)
@@ -58,7 +62,7 @@ public class GrowVineTUT : MonoBehaviour
         {
             while (growValue > minGrow)
             {
-                growValue -= 1 / (Timetogrow / RefreshRate);
+                growValue -= 1 / (Timetogrow/RefreshRate);
                 mat.SetFloat("Grow_", growValue);
 
                 yield return new WaitForSeconds(RefreshRate);
@@ -68,8 +72,12 @@ public class GrowVineTUT : MonoBehaviour
         if(growValue >= maxGrow)
         {
             FullyGrown = true;
-            FullyGrown = false;
+            
         }
+        else
+        {
+           FullyGrown = false; 
+        }        
     }
 
 }

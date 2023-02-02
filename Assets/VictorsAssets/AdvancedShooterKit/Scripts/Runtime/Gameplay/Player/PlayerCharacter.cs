@@ -51,6 +51,7 @@ namespace AdvancedShooterKit
         {
             base.OnEnable();
             hud.SetActive( GameSettings.ShowHud );
+
         }
 
         // OnDisable
