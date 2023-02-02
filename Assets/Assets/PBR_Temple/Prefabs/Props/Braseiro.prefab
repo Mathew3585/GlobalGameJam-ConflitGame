@@ -85,7 +85,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 0.5010142, b: 0.11764705, a: 1}
   m_Intensity: 0.48
-  m_Range: 8
+  m_Range: 5.6
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -190,9 +190,9 @@ MonoBehaviour:
   useCustomBounds: 0
   bounds:
     m_Center: {x: 0.024, y: 2.082, z: 0.09000009}
-    m_Extent: {x: 0.0000033230306, y: 7.9644575, z: 0.0000041458866}
+    m_Extent: {x: 0.0000023261214, y: 5.5751204, z: 0.0000029021207}
   profile: {fileID: 11400000, guid: b30e545885261414487c21200fc4c4de, type: 2}
-  customRange: 8
+  customRange: 5.6
   targetCamera: {fileID: 0}
   useCustomSize: 0
   areaWidth: 1
@@ -15455,7 +15455,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 8
+      value: 5.6
       mode: 0
       spread: 0
       speed:
