@@ -9,6 +9,8 @@ TagManager:
   - Barrel
   - matMetal
   - NonPlayerCharacter
+  - Bullet
+  - Enemy
   layers:
   - Default
   - TransparentFX
