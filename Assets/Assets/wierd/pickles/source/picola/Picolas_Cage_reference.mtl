@@ -1,0 +1,13 @@
+# Blender MTL File: 'Picolas_Cage_reference.blend'
+# Material Count: 1
+
+newmtl picolas_cage_final_dark
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.301557 0.294387 0.229159
+Ks 0.011067 0.022448 0.031915
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd picolas_cage_final_dark.png
