@@ -61,7 +61,7 @@ public class IA : MonoBehaviour
         m_WaitTime = startWaitTime;                 //  Set the wait time variable that will change
         m_PlayerPosition = Vector3.zero;
         m_TimeToRotate = timeToRotate;
-        m_CurrentWaypointIndex = Random.Range(0,10);                 //  Set the initial waypoint
+        m_CurrentWaypointIndex = Random.Range(0, GameManger.waypoints.Length);                 //  Set the initial waypoint
         //Debug.Log(m_CurrentWaypointIndex);
         navMeshAgent = GetComponent<NavMeshAgent>();
 
