@@ -1,8 +1,17 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/4_Fire/Materials/MAT_Fire_Alpha.mat.meta
+guid: 61ceb8fee7895194ca2f9952d231690f
+timeCreated: 1517624062
+licenseType: Free
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+========
 guid: 84d0be215d6c8a94991cd67fffa84009
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
+>>>>>>>> 6a0b1bf0f70fa0b19e0bae4c628c7dcc7901f0c9:Assets/Music.meta
   userData: 
   assetBundleName: 
   assetBundleVariant: 

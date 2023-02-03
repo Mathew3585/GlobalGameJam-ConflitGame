@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 3169378566930602348}
   m_LocalRotation: {x: -0, y: 0.7561562, z: -0, w: 0.65439117}
   m_LocalPosition: {x: 277.974, y: 4.75, z: -46.663}
-  m_LocalScale: {x: 0.31920466, y: 0.31920466, z: 0.31920466}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8823638491962906073}
@@ -68,10 +68,13 @@ MonoBehaviour:
   - {fileID: 8899549295259436500, guid: 99d99c1e2de9c5444901646582321645, type: 3}
   - {fileID: 6887035479466989468, guid: d1e17aac63880b3499972fd646065ab3, type: 3}
   - {fileID: 5080044331816858036, guid: 6b8f6bd020543d04d8a562b27305036d, type: 3}
+  ChestStart: []
+  ChestTriggerStart: []
   RandomGun: 0
   SpawnObject: {fileID: 7473450184749954450}
   HandUi: {fileID: 0}
   open: 0
+  StartSchest: 0
   animator: {fileID: 3154162532732145213}
   Trigger: {fileID: 1662793847796993174}
   Collider: {fileID: 2937623216168692932}
