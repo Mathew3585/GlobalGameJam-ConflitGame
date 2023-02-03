@@ -4764,15 +4764,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1973075987484898}
-  m_LocalRotation: {x: -0.0025848097, y: -0.9947578, z: 0.09886306, w: -0.026008116}
-  m_LocalPosition: {x: -6.25, y: 2.4, z: -43}
+  m_LocalRotation: {x: 0.0011720457, y: -0.99944055, z: -0.014163842, w: 0.030276135}
+  m_LocalPosition: {x: -6.161, y: 1.89, z: -42.906}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4422890984368646}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 11.351001, y: -182.995, z: 0}
+  m_LocalEulerAnglesHint: {x: -1.618, y: -176.527, z: -0.183}
 --- !u!198 &198421077076039884
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -9672,8 +9672,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28a5e29c4f76e3f4195454fc22889332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
-  lifetime: 5
+  type: 1
+  lifetime: 1
   speed: 1
   gravityPower: 0
   damage: 20
@@ -9703,10 +9703,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.0000136888375
-  m_Height: 0.000024340176
-  m_Direction: 1
-  m_Center: {x: 8.881784e-16, y: -0.0000009536743, z: 0}
+  m_Radius: 0
+  m_Height: 0
+  m_Direction: 0
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &5757166989781502291
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9735,5 +9735,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d751c1996c515e1409b3bbc27d26181d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifetime: 5
+  lifetime: 120
   hitSFX: {fileID: 8300000, guid: c4fee6726f3d16147a8193273f340cfa, type: 3}
