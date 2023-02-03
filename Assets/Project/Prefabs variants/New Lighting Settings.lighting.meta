@@ -1,8 +1,14 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Project/Prefabs variants/New Lighting Settings.lighting.meta
 guid: f4509fcb277adbc4caf69de985d508cf
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 4890085278179872738
+========
+guid: 7468cc61cfdc7ee40bbe9710db5d4572
+PrefabImporter:
+  externalObjects: {}
+>>>>>>>> 6a0b1bf0f70fa0b19e0bae4c628c7dcc7901f0c9:Assets/Project/Prefabs variants/Ammo/Pisotlet.prefab.meta
   userData: 
   assetBundleName: 
   assetBundleVariant: 
